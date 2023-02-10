@@ -10,7 +10,9 @@
                 <h1 class="text-menu">Pokedex</h1>
                 <p class="text-menu">Encontre informações sobre seu Pokemon preferido em nossa Pokedex.</p>
                 <ul>
-                    <li><input class="input-filter" placeholder="Informe o Nome ou Id do Pokemon."/></li>
+                    <li>Home</li>
+                    <li>Sobre</li>
+                    <li>Contato</li>
                 </ul>
                 <h3 v-on:click="closeMenu" class="text-menu">X</h3>
             </div>  
@@ -45,10 +47,8 @@ export default {
 
 <style scoped>
     header{
-        background-color:  #EE6030;
-        
+        background-color:  #EE6030;       
         color:#ECECE2;
-        /* #6C6A67; */
         width: 100%;
         height: 60px;
         display: flex;
@@ -98,15 +98,9 @@ export default {
     nav{
         display: flex;
         justify-content: space-between;
-        /* height: 60px;
-        align-items: center; */
     }
 
-    /* .filter-menu{
-        width: 130px;
-    } */
-
-    input{
+    /* input{
         background-color: #483838;
         color: #F5CF6B;
         border: none;
@@ -115,7 +109,7 @@ export default {
         width: 50vw;
         text-align: center;
 
-    }
+    } */
 
     @media (min-width: 700px){
 
@@ -141,6 +135,13 @@ export default {
             display: flex;
             height: 60px;
             align-items: center;
+            gap: 14px;
+            transition: color .3s;
+        }
+
+        li:hover{
+            cursor: pointer;
+            color: #483838;
         }
 
         input{
