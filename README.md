@@ -2,16 +2,18 @@
 
 Tenha as informações dos primeiros 151 pokemons.
 
+![preview](./src/assets/pokedexvue.png)
+#
 ## 🕵 Sobre
 A Pokedex-VueJS é uma aplicação web da Pokedex com informações dos pokemons consumindo a API [PokeAPi](https://pokeapi.co/), que possui informações detalhadas de todos os pokemons existentes.
-
+#
 ## 👤Autores
 - Daniel Emidio
-
+#
 ## 🧭 Status do Projeto
 - ⌛Em andamento: (Detalhes do Pokemon)
 - ⌛Concluído: (Consumir API, Renderizar Pokemons, Responsividade, Filtro por Nome ou Id, página sobre o projeto, página de contato)
-
+#
 ## 🎯 Objetivo do Projeto
 Este é um projeto desenvolvido no processo seletivo da Copybase, cujo o principal objetivo é criar uma Pokedex utilizando VueJs.
 
@@ -22,21 +24,21 @@ Este é um projeto desenvolvido no processo seletivo da Copybase, cujo o princip
 ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![VueJs](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08)
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
-
+#
 ## 🛰 Funcionalidades
 
 - Página Inicial: Ao carregar a aplicação, você será redirecionado a página inicial do projeto, que exibirá todos os 151 pokemons da Pokedex;
 - Filtrar Pokemon: Na página inicial, no campo de texto, você poderá realizar a busca do pokemon desejado informando seu nome ou seu número na pokedex (id);
 - Detalhes Pokemon: Ao clicar no botão de "Detalhes" no Card de Pokemon, você receberá suas informações detalhadas;
-
+#
 ## 🔗 Link para acessar
-- Link do Vercel: Em breve
-
+- Link do Vercel: [clique aqui!](https://pokedex-vuejs-orpin.vercel.app/)
+#
 ## ⚒️ Livrarias Utilizadas
 
 - npm install axios
 - npm install vue-router
-
+#
 
 ## 📫 Contato
 
