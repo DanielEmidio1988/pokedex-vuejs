@@ -8,16 +8,17 @@
 html,
 body{
     background-color: #ECECE2;
-    /* #F7F7F7; */
 }
 
 a{
     text-decoration: none;
+    color:#ECECE2;
+    transition: color .3s;
 }
 
 a:hover{
-    opacity: 0.5;
     cursor: pointer;
+    color: #483838;
 }
 
 li{
